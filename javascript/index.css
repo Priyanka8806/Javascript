@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+background-color: rgb(212, 200, 33);
+    min-height: 50vh;
+}
+h3{
+    text-align: center;
+    margin-top: 6px;
+margin-left: 100px; 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+font-size: 30px;
+}
+#box{
+    height:80vh ;
+    width: 30vw;
+    background-color: rgb(183, 197, 204);
+    border-radius: 4%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-top: 2%;
+    margin-left: 35%; 
+    flex-wrap: wrap; 
+}
+#box img{
+    height: 60%;
+    width: 100%;
+   object-fit: cover;
+   object-position: center;
+   margin-top: 0%;
+   padding: 10px;
+   border-radius: 20%;
+}
+#box h1{
+    text-align: center;
+}
+#box h2{
+    text-align: center;
+    padding: 0px;
+}
+#box h5{
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+}
+#box button{
+    padding: 17px;
+margin: 10px;
+margin-left: 105px;
+font-weight: 900px;
+border-radius: 10px;
+cursor: pointer;
+width: 13vw;
+text-align: center;
+}
+
+ #add{
+    font-weight: 800;
+    background-color: rgb(19, 131, 19);
+    }
+    @media screen  and (max-width:900px){
+        h3{
+         font-size: 19px;
+        } 
+        #box{
+         height: 80vh;
+         width: 46vh;
+        }
+        h1{
+         font-size: 3vw;
+        }
+      #box button{
+        width: 20vw;
+        height: 8vh;
+        font-size: 12px;
+       margin-left: 11vh;
+    }
+    }
+    @media only screen  and (max-width:450px){
+       h3{
+        font-size: 13px;
+        margin-left: 10px; 
+       } 
+       #box{
+        height: 80vh;
+        width: 42vh;
+        flex-wrap: wrap;
+        margin-left: 20%;
+       }
+       h1{
+        font-size: 6vw;
+       }
+     #box button{
+       width: 33vw;
+       height: 8vh;
+       font-size: 12px;
+      margin-left: 13vh;
+}
+}
+
